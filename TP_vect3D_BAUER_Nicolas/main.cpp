@@ -35,11 +35,23 @@ using namespace std;
      vectA.ProduitVectoriel(vectB).Affiche();
 
      float determ;
-     determ = vectA.CalculDeterminant(vectB, vectC);
+     determ = vectA.Calculdeterm(vectB, vectC);
      cout << "Calcul du déterminant de A, B et C : " << determ << endl;
 
      cout << "Calcul du Produit mixte de A, B et du déterminant précédent : " << endl;
      vectA.ProduitMixte(vectB, determ).Affiche();
+     
+     // ---------------- Version 2 --------------
+     
+     cout << "Passons aux surcharge d'opérateurs !" << endl;
+
+     cout << "Addition des vecteurs A et B : " << endl << (vectA + vectB) << endl;
+
+     cout << "Soustration du vecteur A par B : " << endl << (vectA - vectB) << endl;
+
+     cout << "Produit Scalaire de A et B : " << (vectA*vectB) << endl;
+
+     cout << "Produit vectoriel de A et B : " << endl << (vectA ^ vectB) << endl;
 
      return 0;
  }
