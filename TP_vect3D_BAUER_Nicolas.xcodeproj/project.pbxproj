@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8DAFA4B325C2F87000B801AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DAFA4B225C2F87000B801AF /* main.cpp */; };
 		8DAFA4BC25C2F94D00B801AF /* Vect3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DAFA4BA25C2F94D00B801AF /* Vect3d.cpp */; };
+		8DAFA4C025C3098F00B801AF /* Vect2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DAFA4BE25C3098F00B801AF /* Vect2D.cpp */; };
+		8DAFA4C425C30C6300B801AF /* Conteneur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DAFA4C225C30C6300B801AF /* Conteneur.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		8DAFA4B225C2F87000B801AF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8DAFA4BA25C2F94D00B801AF /* Vect3d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vect3d.cpp; sourceTree = "<group>"; };
 		8DAFA4BB25C2F94D00B801AF /* Vect3d.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vect3d.hpp; sourceTree = "<group>"; };
+		8DAFA4BE25C3098F00B801AF /* Vect2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vect2D.cpp; sourceTree = "<group>"; };
+		8DAFA4BF25C3098F00B801AF /* Vect2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vect2D.hpp; sourceTree = "<group>"; };
+		8DAFA4C225C30C6300B801AF /* Conteneur.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Conteneur.cpp; sourceTree = "<group>"; };
+		8DAFA4C325C30C6300B801AF /* Conteneur.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Conteneur.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				8DAFA4B225C2F87000B801AF /* main.cpp */,
 				8DAFA4BA25C2F94D00B801AF /* Vect3d.cpp */,
 				8DAFA4BB25C2F94D00B801AF /* Vect3d.hpp */,
+				8DAFA4BE25C3098F00B801AF /* Vect2D.cpp */,
+				8DAFA4BF25C3098F00B801AF /* Vect2D.hpp */,
+				8DAFA4C225C30C6300B801AF /* Conteneur.cpp */,
+				8DAFA4C325C30C6300B801AF /* Conteneur.hpp */,
 			);
 			path = TP_vect3D_BAUER_Nicolas;
 			sourceTree = "<group>";
@@ -124,7 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DAFA4BC25C2F94D00B801AF /* Vect3d.cpp in Sources */,
+				8DAFA4C425C30C6300B801AF /* Conteneur.cpp in Sources */,
 				8DAFA4B325C2F87000B801AF /* main.cpp in Sources */,
+				8DAFA4C025C3098F00B801AF /* Vect2D.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
